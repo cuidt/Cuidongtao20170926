@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);  
+        setContentView(R.layout.activity_main);
         //获取资源ID
        listView=(PullToRefreshListView) findViewById(R.id.pull_refresh_list);
         //初始化组件
